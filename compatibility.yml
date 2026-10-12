@@ -1,0 +1,11 @@
+matrix:
+  java: [21]
+  paper: [1.20.6, 1.21.4]
+  velocity: [3.3, 3.4]
+plugins:
+  economy-provider:
+    tested: false
+    notes: Replace with the exact provider and build under test.
+  permissions:
+    tested: false
+    notes: Validate contextual inheritance and proxy synchronization.
